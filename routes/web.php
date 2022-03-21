@@ -3,6 +3,7 @@
 use Illuminate\Support\Facades\Route;
 use Illuminate\Http\Request;
 use App\Http\Controllers\user_controller;
+use App\Http\Controllers\kycController;
 
 /*
 |--------------------------------------------------------------------------
@@ -27,4 +28,12 @@ Route::get('signup', function () {
 });
 
 Route::post('signup',[user_controller::class ,'signup']);
+Route::get('kyc', function () {
+    return view('kyc');
+});
+Route::post('kyc',[kycController::class ,'kyc']);
+
+//Route::get('kyc1', function () {
+//    return view('kyc1');
+//});
 

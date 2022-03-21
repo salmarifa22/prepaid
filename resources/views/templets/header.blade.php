@@ -3,12 +3,18 @@
         margin-right: 20px;
     }
     .btn {
-        border: 5px  solid black; 
+        border: 5px  solid black;
     }
     .SinUp{
         margin-left: 500px;
     }
-    
+    label1{
+        font-weight: bold;
+    }
+    .col-25 {
+        float: left;
+        width: 25%;
+        margin-top: 6px;
 </style>
 
 
@@ -38,7 +44,7 @@
               <a href="login" class="btn btn-info">Login</a>
 
           </li>
-          
+
         </ul>
       </div>
     </div>

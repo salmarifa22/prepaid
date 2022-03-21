@@ -22,7 +22,7 @@
 
     <title>@yield('title')</title>
   </head>
-  <body >
+  <body style="height: auto;background-color: #8bebff;height: 100%">
    @include ('templets.header')
   @yield('section')
   @include("templets.footer")
